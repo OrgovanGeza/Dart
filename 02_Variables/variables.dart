@@ -1,0 +1,1 @@
+//basic syntax: <variableType> <variableName> = <value>;
