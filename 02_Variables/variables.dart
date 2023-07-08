@@ -38,6 +38,12 @@ typeless1 = false;
 var varValButNotVarType = true;
 varValButNotVarType = false;
 
+//We can define constants as well. There are two types of constants in Dart: 
+//final --> runtime constant, meaning it gets its value when the code runs (e.g. as a return value of a function)
+//const --> compile time constant, meaning it has to get it's value when the code is getting compiled
+final time = DateTime.now();
+const timeString = "2023-05-16 16:45:24.348";
+
 //changing the value is same as in JS
 
 myFirstNumber += 24;
