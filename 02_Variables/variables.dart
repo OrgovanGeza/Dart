@@ -1,3 +1,4 @@
+void main() {
 //basic syntax: <variableType> <variableName> = <value>;
 
 /*
@@ -62,3 +63,5 @@ lines
 ''';
 
 String classicLineBreak = 'The classic \n will add a line break too';
+
+}
