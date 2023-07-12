@@ -17,4 +17,24 @@ void main() {
     print(greeting[i]);
   }
 
+  //"continue" in a loop will skip to the next step of the loop
+
+    for ( var i =0  ; i<greeting.length; i++) {
+      if (i==1 || i== 2 || i== 3){
+        continue;
+      }
+
+    print(greeting[i]);
+  }
+
+  //"break" will break out of the entire loop
+
+      for ( var i =0  ; i<greeting.length; i++) {
+      if (i==1) {
+        break;
+      }
+
+    print(greeting[i]);
+  }
+
 }
